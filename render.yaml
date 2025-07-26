@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: your-bot-name
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python dsms.py
+    runtime: python-3.11.9
