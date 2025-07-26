@@ -2,6 +2,7 @@ import requests
 import threading
 import time
 import random
+import imghdr
 from datetime import datetime
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
